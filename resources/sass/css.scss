@@ -1,0 +1,46 @@
+.file {
+  visibility: hidden;
+  position: absolute;
+}
+area{
+	margin: 10px auto;
+	box-shadow: 0 10px 100px #ccc;
+	padding: 20px;
+	box-sizing: border-box;
+	max-width: 500px;
+}
+
+.area video{
+	width: 100%;
+	height: auto;
+	background-color: whitesmoke;
+}
+
+.area textarea{
+	width: 100%;
+	margin-top: 10px;
+	height: 80px;
+	box-sizing: border-box;
+}
+
+
+.area img{
+	max-width: 100%;
+	height: auto;
+}
+
+.area .caminho-imagem{
+	padding: 5px 10px;
+	border-radius: 3px;
+	background-color: #068c84;
+	text-align: center;
+}
+
+.area .caminho-imagem a{
+	color: white;
+	text-decoration: none;
+}
+
+.area .caminho-imagem a:hover{
+	color: yellow;
+}
